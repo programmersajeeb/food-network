@@ -7,7 +7,11 @@ h2,
 h3,
 p {
   margin: 0;
+}
+ul {
+  margin: 0;
   padding: 0;
+  list-style: none;
 }
 h1 {
   font-size: 45px;
@@ -33,15 +37,47 @@ h2 {
 .button {
   text-decoration: none;
   color: #fff;
-  background-image: linear-gradient(45deg, #13b7fc, #048af7);
+  background-image: linear-gradient( #13b7fc, #048af7);
   padding: 15px 35px;
   border-radius: 50px;
   font-size: 700;
+}
+.button:hover{
+  background-image: linear-gradient( #048af7, #13b7fc);
 }
 section,
 footer {
   margin-top: 100px;
 }
+/* Header Section */
+#header-area{
+  background-color: #ebf8ff;
+}
+.brand-area h1{
+  color: #575757;
+  cursor: pointer;
+}
+.brand-area h1 span{
+  background: -webkit-linear-gradient(#13b7fc, #048af7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-navbar ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.header-navbar ul li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #575757;
+}
+.header-navbar ul li a:hover {
+  background: -webkit-linear-gradient(#13b7fc, #048af7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Banner Section */
 #banner-area {
   align-items: center;
 }
@@ -56,12 +92,13 @@ footer {
   margin-bottom: 50px;
   width: 90%;
 }
-.banner-content p span{
+.banner-content p span {
   font-weight: bold;
 }
 .banner-image img {
   width: 100%;
 }
+/* About Section */
 #about-area {
   background-image: url(images/Frame\ 57.jpg);
   background-repeat: no-repeat;
@@ -83,6 +120,7 @@ footer {
 .about-content-area p {
   margin-bottom: 70px;
 }
+/* Recipies Section */
 .recipies-content {
   text-align: center;
 }
@@ -118,6 +156,7 @@ footer {
 .recipies-card-content p {
   line-height: 28px;
 }
+/* Counter Section */
 .couter-main-area {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -133,6 +172,7 @@ footer {
   padding: 50px 0;
   border-radius: 25px;
 }
+/* Contact Section */
 form {
   width: 80%;
   margin: 0 auto;
@@ -195,13 +235,14 @@ input.button {
   border: none;
   cursor: pointer;
 }
+/* Footer Section */
 #footer-area {
   text-align: center;
   background-color: #0b0d17;
   padding: 25px 0 75px 0;
 }
 .footer-logo-color {
-  background: linear-gradient(45deg, #13b7fc, #048af7);
+  background: -webkit-linear-gradient(#13b7fc, #048af7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
