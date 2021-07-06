@@ -37,27 +37,27 @@ h2 {
 .button {
   text-decoration: none;
   color: #fff;
-  background-image: linear-gradient( #13b7fc, #048af7);
+  background-image: linear-gradient(#13b7fc, #048af7);
   padding: 15px 35px;
   border-radius: 50px;
   font-size: 700;
 }
-.button:hover{
-  background-image: linear-gradient( #048af7, #13b7fc);
+.button:hover {
+  background-image: linear-gradient(#048af7, #13b7fc);
 }
 section,
 footer {
   margin-top: 100px;
 }
 /* Header Section */
-#header-area{
+#header-area {
   background-color: #ebf8ff;
 }
-.brand-area h1{
+.brand-area h1 {
   color: #575757;
   cursor: pointer;
 }
-.brand-area h1 span{
+.brand-area h1 span {
   background: -webkit-linear-gradient(#13b7fc, #048af7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
