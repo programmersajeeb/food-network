@@ -2,6 +2,10 @@ body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+h1, h2, h3, p{
+  margin: 0;
+  padding: 0;
+}
 h1{
   font-size: 50px;
 }
@@ -14,8 +18,6 @@ h2{
 }
 .content-area{
   width: 40%;
-  /* margin-left: 5%;
-  padding-left: 2%; */
 }
 .display-felx{
   display: flex;
@@ -32,6 +34,9 @@ h2{
   padding: 15px 35px;
   border-radius: 50px;
   font-size: 700;
+}
+section, footer{
+  margin-top: 100px;
 }
 #banner-area{
   align-items: center;
@@ -68,7 +73,7 @@ h2{
 }
 .recipies-card{
   width: 21%;
-  height: 350px;
+  min-height: 350px;
   padding: 1%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 25px;
@@ -83,8 +88,28 @@ h2{
   height: 100%;
   object-fit: cover;
 }
-
-
+.couter-main-area{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 50px 0;
+}
+#social-counter-area .couter-main-area div{
+  width: 33.30%;
+  text-align: center;
+}
+#footer-area{
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 25px 0 75px 0;
+}
+.footer-logo-color{
+  background: linear-gradient(45deg, #13b7fc, #048af7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#footer-area p{
+  color: #fff;
+}
 
 
 
