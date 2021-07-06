@@ -10,7 +10,7 @@ p {
   padding: 0;
 }
 h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
 h2 {
   font-size: 40px;
@@ -55,6 +55,9 @@ footer {
   color: #828282;
   margin-bottom: 50px;
   width: 90%;
+}
+.banner-content p span{
+  font-weight: bold;
 }
 .banner-image img {
   width: 100%;
