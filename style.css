@@ -41,11 +41,16 @@ section, footer{
 #banner-area{
   align-items: center;
 }
+.banner-content h1{
+  margin-bottom: 30px;
+}
 .banner-text-highlight{
   color: #0da7fa;
 }
 .banner-content p{
   color: #828282;
+  margin-bottom: 50px;
+  width: 90%;
 }
 .banner-image img{
   width: 100%;
@@ -64,29 +69,46 @@ section, footer{
   width: auto;
   height: 380px;
 }
+.about-content-area h2{
+  margin-bottom: 30px;
+}
+.about-content-area p{
+  margin-bottom: 70px;
+}
 .recipies-content{
   text-align: center;
+}
+.recipies-content h2{
+  margin-bottom: 25px;
 }
 .recipies-content p{
   width: 60%;
   margin: auto;
+  margin-bottom: 15px;
 }
 .recipies-card{
   width: 21%;
   min-height: 350px;
-  padding: 1%;
+  padding: 1.5%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 25px;
 }
 .recipies-card-image{
   width: 100%;
   height: 180px;
-  border-radius: 25px;
+  margin-bottom: 30px;
 }
 .recipies-card img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
+}
+.recipies-card-content h3{
+  margin-bottom: 10px;
+}
+.recipies-card-content p{
+  line-height: 28px;
 }
 .couter-main-area{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -106,6 +128,9 @@ section, footer{
   background: linear-gradient(45deg, #13b7fc, #048af7);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+#footer-area h3{
+  margin-bottom: 30px;
 }
 #footer-area p{
   color: #fff;
